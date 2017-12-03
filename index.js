@@ -19,7 +19,7 @@ function dec(n){
   return n
 }
 
-
+/*
 function makeInt(n){
   n = parseInt('n',10)
   if (n.toString() === 'n') {
@@ -30,7 +30,6 @@ function makeInt(n){
       }
 
 
-    /*
   if (n=== NaN) {
     n == isNaN('n')
 //    return console.log(n)
@@ -38,14 +37,14 @@ function makeInt(n){
   else if (n.toString() === n) {
     return console.log();
 
-  }*/
+  }
   else {
     n = 0
 
   }
 return n
 }
-/*
+
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
     expect(makeInt(a.toString())).toEqual(a)
@@ -60,16 +59,30 @@ describe('makeInt(n)', function() {
   })
 })
 
-describe('preserveDecimal(n)', function() {
-  it('preserves n\'s decimals (it parses n as a floating point number) and returns the parsed number', function() {
-    expect(preserveDecimal('2.222')).toBe(2.222)
-  })
 
-  it('returns NaN as appropriate', function() {
-    expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
-  })
-})
 */
+
+function makeInt(n){
+  var x = n.toString()
+  a = parseInt('n',10)
+  if (x[0]=== '0' and x[1]==='x' or "X") {
+    return 0
+  }
+  else if (a.toString()==='a') {
+    return a
+  }
+  else {
+    return true
+  }
+}
+
+
+
+
+
+
+
+
 function preserveDecimal(n){
   n = parseFloat(n)
   if (n === NaN) {
