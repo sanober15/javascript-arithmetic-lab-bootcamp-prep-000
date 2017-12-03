@@ -73,7 +73,7 @@ function makeInt(n){
   }
 
   else {
-    return a ;
+    return parseInt('a',10) ;
   }
 }
 
