@@ -73,7 +73,8 @@ function makeInt(n){
   }
 
   else {
-    return parseInt('n',10) ;
+    a = parseInt('n',10)
+    return a;
   }
 }
 
