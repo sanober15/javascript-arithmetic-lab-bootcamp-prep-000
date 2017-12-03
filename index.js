@@ -68,11 +68,13 @@ function makeInt(n){
   if (x[0]=== '0' & x[1]==='x' | "X") {
     return 0
   }
-  else if (a.toString()==='a') {
-    return a
+  else if (a === NaN){
+    a = isNaN('a')
+    return a  
   }
+  
   else {
-    return true
+    return a 
   }
 }
 
