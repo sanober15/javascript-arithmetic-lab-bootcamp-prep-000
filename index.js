@@ -70,9 +70,9 @@ function makeInt(n){
   }
   else if (a === NaN){
     a = isNaN('a')
-    return a  
+    return a
   }
-  
+
   else {
     return a 
   }
