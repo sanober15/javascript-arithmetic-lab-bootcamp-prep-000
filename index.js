@@ -64,7 +64,7 @@ describe('makeInt(n)', function() {
 
 function makeInt(n){
   var x = n.toString()
-  a = parseInt('n',10)
+  var a = parseInt('n',10)
   if (x[0]=== '0' & x[1]==='x' | "X") {
     return 0;
   }
